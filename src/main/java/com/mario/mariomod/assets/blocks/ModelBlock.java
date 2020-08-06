@@ -12,7 +12,7 @@ public class ModelBlock extends Block {
               .hardnessAndResistance(3.0f, 1.0f)
               .sound(SoundType.GLASS)
               .harvestLevel(0)
-              .harvestTool(ToolType.AXE)
+              .harvestTool(ToolType.PICKAXE)
     );
   }
 }
