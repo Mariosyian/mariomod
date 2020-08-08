@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mariomod:blocks/model_block"
+    "all": "mariomod:blocks/model_block_top"
   }
 }

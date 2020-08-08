@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key":
+  {
+    "a": {
+      "item": "minecraft:coal"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:gold_ingot"
+    },
+    "d": {
+      "item": "minecraft:emerald"
+    },
+    "e": {
+      "item": "minecraft:ender_pearl"
+    },
+    "f": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "g": {
+      "item": "minecraft:redstone"
+    },
+    "h": {
+      "item": "minecraft:torch"
+    },
+    "i": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result":
+  {
+    "item": "mariomod:model_block",
+    "count": 1
+  }
+}
