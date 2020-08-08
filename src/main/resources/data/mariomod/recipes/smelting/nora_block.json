@@ -1,9 +1,10 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "mariomod:model_block"
+    "item": "mariomod:nora_block"
   },
   "result": "minecraft:diamond",
+  "quantity": 64,
   "experience": 1000.0,
-  "cookingtime": 100
+  "cookingtime": 60
 }

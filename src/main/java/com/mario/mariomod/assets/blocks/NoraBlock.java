@@ -5,12 +5,12 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class ModelBlock extends Block {
+public class NoraBlock extends Block {
 
-  public ModelBlock() {
+  public NoraBlock() {
     super(Block.Properties.create(Material.WOOD)
               .hardnessAndResistance(3.0f, 1.0f)
-              .sound(SoundType.GLASS)
+              .sound(SoundType.WOOD)
               .harvestLevel(0)
               .harvestTool(ToolType.PICKAXE)
     );

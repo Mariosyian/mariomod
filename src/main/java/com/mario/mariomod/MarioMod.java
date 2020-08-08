@@ -42,7 +42,7 @@ public class MarioMod {
   public static final ItemGroup TAB = new ItemGroup("marioTab") {
     @Override
     public ItemStack createIcon() {
-      return new ItemStack(RegistryHandler.MODEL_ITEM.get());
+      return new ItemStack(RegistryHandler.NORA_SWORD.get());
     }
   };
 }

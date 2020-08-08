@@ -7,14 +7,14 @@
   ],
   "key": {
     "x": {
-      "item": "minecraft:diamond"
+      "item": "mariomod:nora_block"
     },
     "y": {
-      "item": "mariomod:model_block"
+      "item": "mariomod:nora_stick"
     }
   },
   "result": {
-    "item": "mariomod:model_item",
+    "item": "mariomod:nora_sword",
     "count": 1
   }
 }

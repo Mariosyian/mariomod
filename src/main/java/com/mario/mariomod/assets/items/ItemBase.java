@@ -4,12 +4,12 @@ import com.mario.mariomod.MarioMod;
 
 import net.minecraft.item.Item;
 
-public class ModelItem extends Item {
+public class ItemBase extends Item {
 
-  public ModelItem() {
+  public ItemBase() {
     super(new Item.Properties()
                   .group(MarioMod.TAB)
-                  .maxStackSize(1)
+                  .maxStackSize(64)
     );
   }
 }

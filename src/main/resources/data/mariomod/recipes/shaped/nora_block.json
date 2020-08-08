@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
+  "pattern": [
     "abc",
     "def",
     "ghi"
@@ -17,6 +16,7 @@
     "c": {
       "item": "minecraft:gold_ingot"
     },
+    
     "d": {
       "item": "minecraft:emerald"
     },
@@ -26,6 +26,7 @@
     "f": {
       "item": "minecraft:lapis_lazuli"
     },
+    
     "g": {
       "item": "minecraft:redstone"
     },
@@ -36,9 +37,8 @@
       "item": "minecraft:diamond"
     }
   },
-  "result":
-  {
-    "item": "mariomod:model_block",
+  "result": {
+    "item": "mariomod:nora_block",
     "count": 1
   }
 }

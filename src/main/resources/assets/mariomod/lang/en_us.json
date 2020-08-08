@@ -1,5 +1,6 @@
 {
   "itemGroup.marioTab": "mario~",
-  "item.mariomod.model_item": "Nora's Item",
-  "block.mariomod.model_block": "Nora's Block"
+  "item.mariomod.nora_stick": "Nora's Stick",
+  "item.mariomod.nora_sword": "Nora's Sword",
+  "block.mariomod.nora_block": "Nora's Block"
 }
