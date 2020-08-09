@@ -1,0 +1,21 @@
+{
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "mariomod",
+    "name": "Mario~ Mod",
+    "description": "It's a me, mario!",
+    "version": "1.0.4",
+    "mcversion": "1.15.2",
+    "url": "https://github.com/Mariosyian/mariomod",
+    "updateUrl": "",
+    "authorList": [ "mario~" ],
+    "credits": "Authored by mario~",
+    "logoFile": "/mario16x16.png",
+    "screenshots": [ ],
+    "parent": "",
+    "requiredMods": [ "Forge" ],
+    "dependencies": [ ],
+    "dependants": [ ],
+    "useDependencyInformation": true
+  }]
+}

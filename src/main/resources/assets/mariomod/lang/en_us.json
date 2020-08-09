@@ -2,5 +2,9 @@
   "itemGroup.marioTab": "mario~",
   "item.mariomod.nora_stick": "Nora's Stick",
   "item.mariomod.nora_sword": "Nora's Sword",
+  "item.mariomod.nora_pickaxe": "Nora's Pickaxe",
+  "item.mariomod.nora_axe": "Nora's Axe",
+  "item.mariomod.nora_shovel": "Nora's Shovel",
+  "item.mariomod.nora_hoe": "Nora's Hoe",
   "block.mariomod.nora_block": "Nora's Block"
 }

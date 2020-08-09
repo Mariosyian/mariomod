@@ -9,6 +9,11 @@ import net.minecraft.item.crafting.Ingredient;
 
 public enum Tiers implements IItemTier {
   
+  // Attack Damage = BaseOfAllItems(1.0) + BaseOfClass(3.0) + AddDamage(8.0)
+  // Attack Speed = BaseOfAllItems(4.0) = No Cooldown + AddAttackSpeed(0.0)
+  //   Subtract to add cooldown, addition might not do anything
+  
+  // Base Enum Stats
   NORA(1650, 9.0f, 3.0f, 3, 20, () -> {
     return Ingredient.fromItems(RegistryHandler.NORA_SWORD.get());
   });

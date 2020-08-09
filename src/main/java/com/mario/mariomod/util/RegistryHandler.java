@@ -7,7 +7,11 @@ import com.mario.mariomod.assets.items.ItemBase;
 import com.mario.mariomod.assets.tools.Tiers;
 
 import net.minecraft.block.Block;
+import net.minecraft.item.AxeItem;
+import net.minecraft.item.HoeItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -35,9 +39,22 @@ public class RegistryHandler {
   
   // Tools
   public static final RegistryObject<SwordItem> NORA_SWORD = ITEMS.register("nora_sword", () -> {
-    // Attack Damage = BaseOfAllItems(1.0) + BaseOfClass(3.0) + AddDamage(8.0)
-    // Attack Speed = BaseOfAllItems(4.0) = No Cooldown + AddAttackSpeed(0.0)
-    //   Subtract to add cooldown, addition might not do anything
     return new SwordItem(Tiers.NORA, 8, 0.0f, new Item.Properties().group(MarioMod.TAB));    
+  });
+  
+  public static final RegistryObject<PickaxeItem> NORA_PICKAXE = ITEMS.register("nora_pickaxe", () -> {
+    return new PickaxeItem(Tiers.NORA, 2, 0.0f, new Item.Properties().group(MarioMod.TAB));    
+  });
+  
+  public static final RegistryObject<AxeItem> NORA_AXE = ITEMS.register("nora_axe", () -> {
+    return new AxeItem(Tiers.NORA, 3, 0.0f, new Item.Properties().group(MarioMod.TAB));    
+  });
+  
+  public static final RegistryObject<ShovelItem> NORA_SHOVEL = ITEMS.register("nora_shovel", () -> {
+    return new ShovelItem(Tiers.NORA, 1, 0.0f, new Item.Properties().group(MarioMod.TAB));    
+  });
+  
+  public static final RegistryObject<HoeItem> NORA_HOE = ITEMS.register("nora_hoe", () -> {
+    return new HoeItem(Tiers.NORA, 0.0f, new Item.Properties().group(MarioMod.TAB));    
   });
 }
