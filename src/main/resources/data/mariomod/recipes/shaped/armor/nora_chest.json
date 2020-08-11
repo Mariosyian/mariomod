@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "xx ",
-    " y ",
-    " y "
+    "x x",
+    "xxx",
+    "xxx"
   ],
   "key": {
     "x": {
       "item": "mariomod:nora_block"
-    },
-    "y": {
-      "item": "mariomod:nora_stick"
     }
   },
   "result": {
-    "item": "mariomod:nora_hoe",
+    "item": "mariomod:armor/nora_chest",
     "count": 1
   }
 }

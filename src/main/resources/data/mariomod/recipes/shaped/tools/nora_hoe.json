@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "xx ",
-    "xy ",
+    " y ",
     " y "
   ],
   "key": {
@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "mariomod:nora_axe",
+    "item": "mariomod:tool/nora_hoe",
     "count": 1
   }
 }

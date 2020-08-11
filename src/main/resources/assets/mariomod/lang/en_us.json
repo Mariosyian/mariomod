@@ -2,11 +2,11 @@
   "itemGroup.marioTab": "mario~",
   "item.mariomod.nora_stick": "Nora's Stick",
   
-  "item.mariomod.nora_sword": "Nora's Sword",
-  "item.mariomod.nora_pickaxe": "Nora's Pickaxe",
-  "item.mariomod.nora_axe": "Nora's Axe",
-  "item.mariomod.nora_shovel": "Nora's Shovel",
-  "item.mariomod.nora_hoe": "Nora's Hoe",
+  "item.mariomod.tool.nora_sword": "Nora's Sword",
+  "item.mariomod.tool.nora_pickaxe": "Nora's Pickaxe",
+  "item.mariomod.tool.nora_axe": "Nora's Axe",
+  "item.mariomod.tool.nora_shovel": "Nora's Shovel",
+  "item.mariomod.tool.nora_hoe": "Nora's Hoe",
   
   "item.mariomod.armor.nora_helmet": "Nora's Helmet",
   "item.mariomod.armor.nora_chest": "Nora's Chestplate",
