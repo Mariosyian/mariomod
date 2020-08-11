@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "mariomod:items/nora_shovel"
+    "layer0": "mariomod:items/tools/nora_shovel"
   }
 }

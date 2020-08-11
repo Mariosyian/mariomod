@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "mariomod:items/nora_sword"
+    "layer0": "mariomod:items/tools/nora_sword"
   }
 }

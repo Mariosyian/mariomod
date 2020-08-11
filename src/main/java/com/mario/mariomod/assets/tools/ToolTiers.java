@@ -7,7 +7,7 @@ import com.mario.mariomod.util.RegistryHandler;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
-public enum Tiers implements IItemTier {
+public enum ToolTiers implements IItemTier {
   
   // Attack Damage = BaseOfAllItems(1.0) + BaseOfClass(3.0) + AddDamage(8.0)
   // Attack Speed = BaseOfAllItems(4.0) = No Cooldown + AddAttackSpeed(0.0)
@@ -15,7 +15,7 @@ public enum Tiers implements IItemTier {
   
   // Base Enum Stats
   NORA(1650, 9.0f, 3.0f, 3, 20, () -> {
-    return Ingredient.fromItems(RegistryHandler.NORA_SWORD.get());
+    return Ingredient.fromItems(RegistryHandler.NORA_BLOCK.get());
   });
 
   private final int maxUses;
@@ -25,7 +25,7 @@ public enum Tiers implements IItemTier {
   private final int enchantability;
   private final Supplier<Ingredient> repairMaterial;
   
-  Tiers(int maxUses, float efficiency, float attackDamage, int harvestLevel, int enchantability, Supplier<Ingredient> repairMaterial) {
+  ToolTiers(int maxUses, float efficiency, float attackDamage, int harvestLevel, int enchantability, Supplier<Ingredient> repairMaterial) {
     this.maxUses = maxUses;
     this.efficiency = efficiency;
     this.attackDamage = attackDamage;
