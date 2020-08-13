@@ -8,33 +8,33 @@
   "key":
   {
     "a": {
-      "item": "minecraft:coal"
+      "item": "minecraft:blue_wool"
     },
     "b": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:light_blue_wool"
     },
     "c": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:cyan_wool"
     },
     
     "d": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:red_wool"
     },
     "e": {
-      "item": "minecraft:ender_pearl"
+      "item": "mariomod:nora_stick"
     },
     "f": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:lime_wool"
     },
     
     "g": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:orange_wool"
     },
     "h": {
-      "item": "minecraft:torch"
+      "item": "minecraft:yellow_wool"
     },
     "i": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:green_wool"
     }
   },
   "result": {

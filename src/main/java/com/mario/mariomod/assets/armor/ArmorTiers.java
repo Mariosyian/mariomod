@@ -16,11 +16,12 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 public enum ArmorTiers implements IArmorMaterial {
   
   // nora_layer_0 for texture
-  NORA(MarioMod.MODID + ":nora", 35, new int[] { 4, 6, 8, 2 }, 25, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.5f, () -> {
+  NORA(MarioMod.MODID + ":nora", 35, new int[] { 12, 18, 24, 6 }, 25, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 3.5f, () -> {
     return Ingredient.fromItems(RegistryHandler.NORA_BLOCK.get());
   });
   
   private static final int[] MAX_DAMAGE = new int[] { 13, 10, 30, 8 };
+  
   private final String name;
   private final int maxDamageMultiplier;
   private final int[] damageReductionMultiplier;

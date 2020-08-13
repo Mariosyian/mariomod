@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mariomod:nora_sword",
+          "name": "mariomod:tool/nora_sword",
           "weight": 1,
           "functions": [
             {

@@ -20,6 +20,7 @@ public class RegistryHandler {
   public static void init() {
     ArmorRegistry.init();
     ToolRegistry.init();
+    FoodRegistry.init();
     
     ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
