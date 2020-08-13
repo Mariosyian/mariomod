@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "abc",
+    " e ",
+    "   "
+  ],
+  "key":
+  {
+    "a": {
+      "item": "minecraft:wheat"
+    },
+    "b": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "c": {
+      "item": "minecraft:carrot"
+    },
+    
+    "e": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "mariomod:salad",
+    "count": 1
+  }
+}
