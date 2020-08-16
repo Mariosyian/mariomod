@@ -1,5 +1,6 @@
 package com.mario.mariomod.util;
 
+import com.mario.mariomod.assets.foods.FriedEgg;
 import com.mario.mariomod.assets.foods.Salad;
 
 import net.minecraft.item.Item;
@@ -13,6 +14,7 @@ public class FoodRegistry {
     DeferredRegister<Item> ITEMS = RegistryHandler.ITEMS;
 
     RegistryObject<Salad> SALAD = ITEMS.register("food/salad", Salad::new);
+    RegistryObject<FriedEgg> FRIED_EGG = ITEMS.register("food/fried_egg", FriedEgg::new);
   }
 
 }

@@ -3,7 +3,7 @@
   "pattern": [
     "x x",
     "x x",
-    "   "
+    "x x"
   ],
   "key": {
     "x": {
@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "mariomod:armor/cobblestone_boots",
+    "item": "mariomod:armor/cobblestone_leggings",
     "count": 1
   }
 }

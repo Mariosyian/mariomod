@@ -1,7 +1,9 @@
 {
   "itemGroup.marioTab": "mario~",
   "item.mariomod.nora_stick": "Nora's Stick",
+  
   "item.mariomod.food.salad": "Salad",
+  "item.mariomod.food.fried_egg": "Fried Egg",
   
   "item.mariomod.tool.nora_sword": "Nora's Sword",
   "item.mariomod.tool.nora_pickaxe": "Nora's Pickaxe",
@@ -13,6 +15,10 @@
   "item.mariomod.armor.nora_chest": "Nora's Chestplate",
   "item.mariomod.armor.nora_leggings": "Nora's Leggings",
   "item.mariomod.armor.nora_boots": "Nora's Boots",
+  "item.mariomod.armor.cobblestone_helmet": "Cobblestone Helmet",
+  "item.mariomod.armor.cobblestone_chest": "Cobblestone Chestplate",
+  "item.mariomod.armor.cobblestone_leggings": "Cobblestone Leggings",
+  "item.mariomod.armor.cobblestone_boots": "Cobblestone Boots",
   
   "block.mariomod.nora_block": "Nora's Block"
 }

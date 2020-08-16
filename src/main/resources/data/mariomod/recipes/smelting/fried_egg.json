@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mariomod:egg"
+  },
+  "result": "mariomod:food/fried_egg",
+  "experience": 5.0,
+  "cookingtime": 60
+}

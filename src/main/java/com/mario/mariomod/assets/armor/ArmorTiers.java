@@ -7,6 +7,7 @@ import com.mario.mariomod.util.RegistryHandler;
 
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.SoundEvents;
@@ -16,11 +17,14 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 public enum ArmorTiers implements IArmorMaterial {
   
   // nora_layer_0 for texture
-  NORA(MarioMod.MODID + ":nora", 35, new int[] { 12, 18, 24, 6 }, 25, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 3.5f, () -> {
+  NORA(MarioMod.MODID + ":nora", 35, new int[] { 7, 18, 24, 11 }, 25, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 3.5f, () -> {
     return Ingredient.fromItems(RegistryHandler.NORA_BLOCK.get());
+  }),
+  CSTONE(MarioMod.MODID + ":cstone", 35, new int[] { 2, 3, 4, 1 }, 5, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.3f, () -> {
+    return Ingredient.fromItems(Items.COBBLESTONE);
   });
   
-  private static final int[] MAX_DAMAGE = new int[] { 13, 10, 30, 8 };
+  private static final int[] MAX_DAMAGE = new int[] { 8, 10, 30, 12 };
   
   private final String name;
   private final int maxDamageMultiplier;

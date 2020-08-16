@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "mariomod:nora_block"
   },
-  "result": "minecraft:cookie",
+  "result": "minecraft:diamond",
   "experience": 1000.0,
   "cookingtime": 20
 }

@@ -7,11 +7,11 @@
   ],
   "key": {
     "x": {
-      "item": "minecraft:cobblestone"
+      "item": "mariomod:nora_block"
     }
   },
   "result": {
-    "item": "mariomod:armor/cobblestone_boots",
+    "item": "mariomod:armor/nora_boots",
     "count": 1
   }
 }
